@@ -17,17 +17,17 @@ function clicker() {
         testWord.push(" ");
     }
     
-    for (let i = 0; i < testWord.length; i++) {
+    for (var i = 0; i < testWord.length; i++) {
         if(i % 2 === 1) {
         evenNums.push(testWord[i]);
         }
     }
-    for (let i = 0; i < testWord.length; i++) {
+    for (var i = 0; i < testWord.length; i++) {
         if(i % 2 === 0) {
         oddNums.push(testWord[i]);
         }
     }
-    for (let i = 0; i < oddNums.length || i < evenNums.length; i++) {
+    for (var i = 0; i < oddNums.length || i < evenNums.length; i++) {
         newWord.push(evenNums[i] + oddNums[i]);
     }
     newWord = newWord.toString();
