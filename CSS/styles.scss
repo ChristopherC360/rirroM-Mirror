@@ -1,0 +1,44 @@
+$color-border: #00008b;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: $body-font; 
+}
+  
+h1, h2, h3 {
+    font-family: $header-font; 
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    border-color: #f0f0f0;
+    min-height: 200px; 
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent; 
+}
+  
+.carousel {
+    border: solid $color-border; 
+}
+
+.carousel-inner .carousel-item {
+    transition: .5s;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in;
+}
+
+.bg-img {
+    background-image: url("../images/depositphotos_23180106-stock-photo-modern-mathematics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+}
