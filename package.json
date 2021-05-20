@@ -1,7 +1,7 @@
 {
   "name": "weeb-development",
   "version": "1.0.0",
-  "description": "Profile Portfolio",
+  "description": "rirroM-Mirror",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
