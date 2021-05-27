@@ -25,7 +25,10 @@ h1, h2, h3 {
   transition-timing-function: ease-in; }
 
 .bg-img {
-  background-image: url("../images/depositphotos_23180106-stock-photo-modern-mathematics.jpg");
+  background: url("../images/depositphotos_23180106-stock-photo-modern-mathematics.jpg") fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: max-content; }
+
+a:nth-child(2) {
+  float: right; }
