@@ -33,5 +33,9 @@ function clicker() {
     newWord = newWord.toString();
     newWord = newWord.replaceAll(",", "");
     
-    alert(firstChar + newWord);
+        // Submit Button Modal
+    $("#modalContent").html(firstChar + newWord);
+    $("#submitModal").modal("show");
+
+    document.getElementById("textEnter").value = "";
 }
